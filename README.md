@@ -1,3 +1,3 @@
-# Responsive-Design
+# Responsive-Design 
 HTML, CSS, JavaScript, Bootstrap
-<!-- Simple Web Design -->
+<!-- Simple Responsive Web Design - Resize Browser Window. -->
