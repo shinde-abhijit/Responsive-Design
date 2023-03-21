@@ -1,0 +1,117 @@
+
+html{
+    min-width: 576px;
+    /* min-height: 100vh; */
+}
+
+#took{
+    cursor: pointer;
+}
+#size{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    color: red;
+    background-color: violet;
+    box-sizing: border-box;
+    margin: 10px 0px 10px 0px;
+}
+.container{
+    display: grid;
+}
+header, nav, main, Section, Aside, Footer{
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 5px 0px 5px 0px;
+    align-items: center;
+    place-content: center;
+    display: grid;
+}
+
+@media screen and ( max-height: 1600px){
+    header{
+        background-color: whitesmoke;
+
+    }
+    header:hover,nav:hover,main:hover,section:hover,aside:hover,footer:hover{
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 1s ease-in;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    nav{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+    }
+    main{
+        background-color: indianred;   
+    }
+    section{
+        background-color: orange;
+    }
+    aside{
+        background-color: orangered;
+    }
+    footer{
+        background-color: slateblue;
+    }
+}
+@media screen and (max-width: 992px){
+    header{
+        background-color: red;
+    }
+    header:hover,nav:hover,main:hover,section:hover,aside:hover,footer:hover{
+        box-shadow: 0px 0px 10px rgb(0, 106, 255);
+        transition: 1s ease-in;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    nav{
+        background-color: darkblue;
+        color: #fff;
+    }
+    main{
+        background-color: darkcyan;   
+    }
+    section{
+        background-color: darkgoldenrod;
+    }
+    aside{
+        background-color: darkgray;
+    }
+    footer{
+        background-color: darkgreen;
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+        background-color: darkmagenta;
+    }
+    header:hover,nav:hover,main:hover,section:hover,aside:hover,footer:hover{
+        box-shadow: 0px 0px 10px rgb(255, 0, 0);
+        transition: 1s ease-in;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    nav{
+        background-color: darkkhaki;
+        color: #fff;
+    }
+    main{
+        background-color: darksalmon;   
+    }
+    section{
+        background-color: darkorange;
+    }
+    aside{
+        background-color: darkslategrey;
+    }
+    footer{
+        background-color: darkslateblue;
+    }
+}
